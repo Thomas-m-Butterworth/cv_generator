@@ -1,0 +1,33 @@
+<!-- Extending the base template -->
+{%extends "base.html"%} {% block title %}Thomas Butterworth's CV Generator{% endblock %}
+
+{% block content%}
+<h1 align="center">Thomas Butterworth's CV Generator</h1>
+
+<!-- DIV Structure for CV Template -->
+<div id="main-cv" width=60vw align="center">
+
+    <div class="cv_contact">
+        <h1>Thomas Butterworth</h1>
+        <h3>thomas.butterworth@gmail.com</a> | 07810793393</h3>
+    </div>
+
+    <div class="about_me">
+        <div class="personal_statement">
+            <h3>Personal Statement</h3>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+        </div>
+
+    </div>
+    <div class="work_edu">
+    <div class="work_history">
+        <h3>Work History</h3>
+    </div>
+    <div class="education"><h3>Education</h3></div>
+    </div>
+</div>
+
+
+{% endblock %}
